@@ -26,7 +26,9 @@ docker build -t appinsights-demo .
 
 8. run locally docker to see everything is good
 
-9. Now create Azure ACR 
+9. Now create Azure ACR  <we have node js application so we connect github>
+
+[skip 10 -11 for nodejs]
 
 10. build the local image push to the acr via dockerized.ps1 shell script
 
@@ -39,3 +41,5 @@ https://mywebapp12-hpcma9gkc0cjeaft.eastus2-01.azurewebsites.net/products
 13. Now enable the application insight now 
 
 go to web app >> Settings >> application insight
+
+
