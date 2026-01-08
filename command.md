@@ -42,4 +42,29 @@ https://mywebapp12-hpcma9gkc0cjeaft.eastus2-01.azurewebsites.net/products
 
 go to web app >> Settings >> application insight
 
+14. Now you will select existing resource it create application insight enable
 
+15. investigate application insight
+
+-  application map
+
+- failure
+
+- performance
+
+16. Addon features which you may also look
+
+- availablilty test (create the standard test here to check the api)
+
+- profiler (same like any other application time spent on call)
+
+- snapshot debuggers
+
+- smart detection (monitoring >> alert >> failure anamolies)
+
+
+17. code has telemetryClient for more application insights
+
+18. go to understand the sampling  
+
+go to usage & estimate cost >> check data sampling
