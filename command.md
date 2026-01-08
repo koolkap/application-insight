@@ -17,3 +17,13 @@ mongodb://127.0.0.1:27017
 6. add connection string in the env variable
 
 DB_URL=mongodb://127.0.0.1:27017/productsdb
+
+alterantivley you can also use free monogodb service to deploy the free mongoDB 
+
+7. Now make the docker file and containerized your application using 
+
+docker build -t appinsights-demo .
+
+8. run locally docker to see everything is good
+
+9. Now create Azure ACR
