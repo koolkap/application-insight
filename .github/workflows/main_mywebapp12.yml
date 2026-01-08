@@ -23,10 +23,12 @@ jobs:
         with:
           node-version: '24.x'
 
-      - name: npm install, start and test
+      - name: npm install, build, and test
         run: |
           npm install
-          npm run start
+          npm run build --if-present
+          npm run test --if-present
+          npm start
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v4

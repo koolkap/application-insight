@@ -26,4 +26,4 @@ docker build -t appinsights-demo .
 
 8. run locally docker to see everything is good
 
-9. Now create Azure ACR
+9. Now create Azure ACR <optional if you want to pursue with the container image>
