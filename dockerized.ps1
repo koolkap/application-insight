@@ -8,7 +8,6 @@ az acr update -n $acrName --admin-enabled true
 
 #docker push flaskcontainerreg123.azurecr.io/flask-python-app:v1
 
-
 #second image
 
 docker tag appinsights-demo mycontainerreg12.azurecr.io/appinsights-demo:latest
