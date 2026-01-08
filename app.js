@@ -87,7 +87,7 @@ app.get("/handlederror", (req, res) => {
 
 // ---- DB Connect ----
 mongoose
-  .connect("mongodb://127.0.0.1:27017/productsdb")
+  .connect("mongodb+srv://koolkap33_db_user:rIn9OM9wMSZRKriR@cluster0.ibl7k7x.mongodb.net/?appName=Cluster0") 
   .then(() => console.log("Connected to DB"))
   .catch((err) => console.log("DB Connection Error:", err));
 
