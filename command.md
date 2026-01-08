@@ -32,4 +32,10 @@ docker build -t appinsights-demo .
 
 11. map the container image in the web app azure
 
+12. now run the application on the deployed resource /product GET and /product POST
 
+https://mywebapp12-hpcma9gkc0cjeaft.eastus2-01.azurewebsites.net/products
+
+13. Now enable the application insight now 
+
+go to web app >> Settings >> application insight
